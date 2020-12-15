@@ -5,16 +5,16 @@ var currentDate = $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a
 
 
 
-var hour8 = $("#timeSet8")
-var hour9 = $("#timeSet9")
-var hour10 = $("#timeSet10")
-var hour11 = $("#timeSet11")
-var hour12 = $("#timeSet12")
-var hour13 = $("#timeSet13")
-var hour14 = $("#timeSet14")
-var hour15 = $("#timeSet15")
-var hour16 = $("#timeSet16")
-var hour17 = $("#timeSet17")
+// var hour8 = $("#timeSet8")
+// var hour9 = $("#timeSet9")
+// var hour10 = $("#timeSet10")
+// var hour11 = $("#timeSet11")
+// var hour12 = $("#timeSet12")
+// var hour13 = $("#timeSet13")
+// var hour14 = $("#timeSet14")
+// var hour15 = $("#timeSet15")
+// var hour16 = $("#timeSet16")
+// var hour17 = $("#timeSet17")
 
 
 
@@ -24,7 +24,7 @@ setInterval (function() {
 
 
 function savePlanner() {
-    $("#calendar-row").each(function () {
+    $("textarea").each(function () {
         var id = $(this).attr("id");
         var schedule = localStorage.getItem(id)
 
@@ -49,8 +49,9 @@ saveBtn.on("click", function () {
 
 
 function colorDistribute() {
-    $("#calendar-row").each(function () {
+    $("textarea").each(function () {
         var currentHour = $(this).attr("id")
+        console.log(currentHour)
 
         if (currentHour > dailyHour) {
             $(this).addClass("future")
