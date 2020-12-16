@@ -37,7 +37,7 @@ function savePlanner() {
 savePlanner()
 
 
-var saveBtn = $("#saveBtn");
+var saveBtn = $(".saveBtn");
 //on click function to save//
 saveBtn.on("click", function () {
     var timeEntry = $(this).siblings("div").text()
@@ -50,8 +50,9 @@ saveBtn.on("click", function () {
 //Disperse color to match with what is present, future, and past//
 function colorDistribute() {
     $("textarea").each(function () {
-        var currentHour = $(this).attr("#timeSet")
+        var currentHour = parseInt($(this).attr("data-hour"))
         console.log(currentHour)
+        console.log(dailyHour)
 
         if (currentHour > dailyHour) {
             $(this).addClass("future")
