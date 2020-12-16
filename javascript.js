@@ -3,20 +3,6 @@
 var dailyHour = moment().format('H')
 var currentDate = $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
 
-
-
-// var hour8 = $("#timeSet8")
-// var hour9 = $("#timeSet9")
-// var hour10 = $("#timeSet10")
-// var hour11 = $("#timeSet11")
-// var hour12 = $("#timeSet12")
-// var hour13 = $("#timeSet13")
-// var hour14 = $("#timeSet14")
-// var hour15 = $("#timeSet15")
-// var hour16 = $("#timeSet16")
-// var hour17 = $("#timeSet17")
-
-
 //Set Timer to go live. //
 setInterval (function() {
     $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));

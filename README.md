@@ -1,6 +1,5 @@
 # daily-planner-hw5
 
-** I am still finalizing this**
 
 Here is the link to my live daily planner: 
 https://youjmi.github.io/daily-planner-hw5/
