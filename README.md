@@ -11,6 +11,7 @@ I would like to give special acknoledgement to my team as well: Frankie, Amir, J
 3.  Johnnie:https://github.com/balokdecoy
 4.  Rachel: https://github.com/rwanke14
 
+In my Daily Planner, I am able to present the Timer to be live and active, Color Coordinate with present, past and future, & lastly utilize local storage.
 
 ![Screen Shot 2020-12-16 at 10 56 33 AM (2)](https://user-images.githubusercontent.com/73494581/102372770-8b017800-3f8d-11eb-9ebc-68af4652bc2a.png)
 ![Screen Shot 2020-12-16 at 10 56 14 AM (2)](https://user-images.githubusercontent.com/73494581/102372793-8f2d9580-3f8d-11eb-8934-c96bdd0a4226.png)
