@@ -12,4 +12,5 @@ I would like to give special acknoledgement to my team as well: Frankie, Amir, J
 4.  Rachel: https://github.com/rwanke14
 
 
-![ScreenShot](https://user-images.githubusercontent.com/73494581/102304304-231a4580-3f2b-11eb-9550-d3bf8b1ae51a.jpeg)
+![Screen Shot 2020-12-16 at 10 56 33 AM (2)](https://user-images.githubusercontent.com/73494581/102372770-8b017800-3f8d-11eb-9ebc-68af4652bc2a.png)
+![Screen Shot 2020-12-16 at 10 56 14 AM (2)](https://user-images.githubusercontent.com/73494581/102372793-8f2d9580-3f8d-11eb-8934-c96bdd0a4226.png)
