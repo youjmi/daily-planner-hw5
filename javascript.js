@@ -17,19 +17,19 @@ var currentDate = $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a
 // var hour17 = $("#timeSet17")
 
 
-
+//Set Timer to go live. //
 setInterval (function() {
     $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
 },1000)
 
-
+//Local Storage when saving //
 function savePlanner() {
     $("textarea").each(function () {
-        var id = $(this).attr("id");
+        var id = $(this).attr("#timeSet");
         var schedule = localStorage.getItem(id)
 
         if (schedule !== null) {
-            $(this).children("textarea").val(schedule)
+            $(this).siblings("textarea").val(schedule)
         }
     }
 
@@ -38,7 +38,7 @@ savePlanner()
 
 
 var saveBtn = $("#saveBtn");
-
+//on click function to save//
 saveBtn.on("click", function () {
     var timeEntry = $(this).siblings("div").text()
     var textEntry = $(this).siblings("textarea").val();
@@ -47,10 +47,10 @@ saveBtn.on("click", function () {
 })
 
 
-
+//Disperse color to match with what is present, future, and past//
 function colorDistribute() {
     $("textarea").each(function () {
-        var currentHour = $(this).attr("id")
+        var currentHour = $(this).attr("#timeSet")
         console.log(currentHour)
 
         if (currentHour > dailyHour) {
